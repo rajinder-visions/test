@@ -7,29 +7,29 @@
 ## LINUX
 
 Install Python:
-'''
+---
 sudo apt update
 sudo apt install python3 python3-pip
-'''
+---
 Install Locust:
-'''
+---
 pip3 install locust
-'''
+---
 Verify:
-'''
+---
 locust -V
-'''
+---
 If “locust command not found”:
-'''
+---
 nano ~/.bashrc
 Add at end of file:
-'''
+---
 export PATH="$HOME/.local/bin:$PATH"
-'''
+---
 3. Save + exit
 4. Run
-''' source ~/.bashrc
-locust -V '''
+--- source ~/.bashrc
+locust -V ---
 
 ## MACOS
 
