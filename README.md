@@ -118,7 +118,7 @@ https://github.com/visionsDe/devops
 
 Go to folder:
 ```
-devops-master/sequences_test
+cd devops-master/sequences_test
 ```
  
 Check file example (apt_flow.json):
