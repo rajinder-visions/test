@@ -82,24 +82,28 @@ Check “Add Python to PATH”
 
 Install Locust:
 ```
-pip install locust ```
+pip install locust
+```
 
 Verify:
 ```
-locust --version ```
-
+locust --version
+```
 If not working open powershell or cmd:
 ```
-python -m site --user-site ```
+python -m site --user-site
+```
 
 Find Scripts folder:
 ```
-C:\Users\YourName\AppData\Roaming\Python\Python311\Scripts ```
+C:\Users\YourName\AppData\Roaming\Python\Python311\Scripts
+```
 Add to PATH:
 Environment Variables → PATH → Add new
 Restart terminal
 ```
-locust --version ```
+locust --version
+```
 
 
 
@@ -109,11 +113,13 @@ locust --version ```
 
 Download sample project:
 ```
-https://github.com/visionsDe/devops ```
+https://github.com/visionsDe/devops
+```
 
 Go to folder:
 ```
-devops-master/sequences_test ```
+devops-master/sequences_test
+```
  
 Check file example (apt_flow.json):
 
