@@ -1,10 +1,10 @@
 # Locust Installation & Testing Guide (Linux / macOS / Windows)
 
 ------------------------------------------------------------
-# 1. INSTALL LOCUST
+## 1. INSTALL LOCUST
 ------------------------------------------------------------
 
-## LINUX 
+### LINUX 
 
 Install Python:
 
@@ -36,7 +36,7 @@ source ~/.bashrc
 locust -V
 ```
 
-## MACOS
+### MACOS
 
 Install Homebrew (if not installed):
 ```
@@ -74,7 +74,7 @@ Test:
 locust -V
 ```
 
-## WINDOWS
+### WINDOWS
 
 Install Python:
 Download from https://www.python.org/downloads/windows/
@@ -108,7 +108,7 @@ locust --version
 
 
 ------------------------------------------------------------
-# 2. ADD THE API FOR SEQUENTIAL TESTING
+## 2. ADD THE API FOR SEQUENTIAL TESTING
 ------------------------------------------------------------
 
 Download sample project:
@@ -124,7 +124,7 @@ devops-master/sequences_test
 Check file example (apt_flow.json):
 
 ------------------------------------------------------------
-# 3. RUN THE TEST (All Operating Systems)
+## 3. RUN THE TEST (All Operating Systems)
 ------------------------------------------------------------
 
 Run Locust:
@@ -141,7 +141,7 @@ Start the test:
 • Click “Start Swarming”
 
 ------------------------------------------------------------
-# SUMMARY
+## SUMMARY
 ------------------------------------------------------------
 
 Linux: Install via apt + pip3
