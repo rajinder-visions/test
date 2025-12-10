@@ -144,9 +144,9 @@ Start the test:
 ## SUMMARY
 ------------------------------------------------------------
 
-Linux: Install via apt + pip3
-macOS: Install via Homebrew + pip
-Windows: Install via Python installer + pip
-Run test (all OS):
-locust -f sequence_test.py --host <API>
-Open: http://localhost:8089
+* Linux: Install via apt + pip3
+* macOS: Install via Homebrew + pip
+* Windows: Install via Python installer + pip
+* Run test (all OS):
+* locust -f sequence_test.py --host <API>
+* Open: http://localhost:8089
