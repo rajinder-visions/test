@@ -2,7 +2,16 @@
 
 ## Step 1:
 * Open Powershell as **Administrator**
-* Run the command given below:-
+* Install SSH Service.
+```
+Get-Service sshd
+```
+* To Start SSH Automatically On Startup Run the command given below:-
+```
+Set-Service -Name sshd -StartupType 'Automatic'
+
+```
+* Run the command given below to set powershell as default Shell:-
  
 ```
 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" `
