@@ -9,7 +9,6 @@ Get-Service sshd
 * To Start SSH Automatically On Startup Run the command given below:-
 ```
 Set-Service -Name sshd -StartupType 'Automatic'
-
 ```
 * Run the command given below to set powershell as default Shell:-
  
