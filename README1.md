@@ -21,4 +21,23 @@ PSProvider   : Microsoft.PowerShell.Core\Registry
 Restart-Service sshd
 ```
 
-## Step 2:
+## Step 2:.
+* Clone the code from given link:-
+```
+https://rajinder-vision.github.com
+```
+* go to given path below:-
+```
+cd /devops/windows_update/
+```
+* Run the Command given below:-
+```
+ansible-playbook -i hosts update_windows.yaml
+```
+
+## SUMMARY
+
+* Set Powershell as Default Shell.
+* Restarted SSH Serivce to apply Changes.
+* Cloning Repo to System.
+* Running Ansible-Playbook to Patching Windows System 
