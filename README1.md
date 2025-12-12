@@ -32,11 +32,11 @@ Restart-Service sshd
 ## Step 2:.
 * Clone the code from given link:-
 ```
-https://rajinder-vision.github.com
+https://github.com/visionsDe/devops.git
 ```
 * go to given path below:-
 ```
-cd /devops/windows_update/
+cd /devops/ansible/
 ```
 * Run the Command given below:-
 ```
